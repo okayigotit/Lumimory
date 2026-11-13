@@ -1,0 +1,18 @@
+{
+  "identifier": "lumi_integrated_memory_proto_a",
+  "name": "루미모리 — Prototype C.15 R4 (저장 내구성·복구)",
+  "version": "0.3.15-durability.4",
+  "author": "Personal prototype (host adaptation informed by memory library)",
+  "description": "C.15 R3 검색 동작과 기존 데이터 형식은 유지하면서 검증된 체크포인트 기반 저장 중단 복구와 늦은 요약 결과 충돌 검사를 추가한 안전성 후보. C.16 구조화 미구현.",
+  "minimum_lumiverse_version": "1.2.5",
+  "permissions": [
+    "generation",
+    "chats",
+    "chat_mutation",
+    "interceptor",
+    "cors_proxy"
+  ],
+  "entry_backend": "dist/backend.js",
+  "entry_frontend": "dist/frontend.js",
+  "interceptorTimeoutMs": 15000
+}
